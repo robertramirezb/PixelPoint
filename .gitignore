@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Archivos temporales de PyInstaller
+build/
+
+# Ignorar otros ejecutables, pero conservar PixelPoint
+*.exe
+!dist/
+!dist/PixelPoint.exe
+
+# Configuración de editores
+.vscode/
+.idea/
+
+# Archivos de Windows
+Thumbs.db
+Desktop.ini
+
+# Registros y temporales
+*.log
+*.tmp
+
+# Variables de entorno y secretos
+.env
+.env.*
+
+# Pruebas y cobertura
+.coverage
+htmlcov/
+.pytest_cache/
